@@ -1,0 +1,51 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(304deg, rgba(0,0,0,1) 5%, rgba(248,252,255,1) 33%, rgba(255,255,255,1) 60%, rgba(0,0,0,1) 95%);
+}
+.header { 
+    background: rgb(119, 88, 88);
+    z-index: -1;
+}
+.imagen {
+    height:450px;
+    width:auto;
+}
+.header_photo { 
+    display: flex;
+    justify-content: space-between;
+
+}
+.container_mother {
+    width: 100%;
+}
+.container_son{
+    display: flex;
+    flex-direction: column;
+    /*text-align: center;*/
+    width: 75%;
+    margin: auto;
+    height: 550px;
+    width: 35%;
+    background: rgb(255, 255, 255);
+    margin-top: 50PX;
+}
+#description {
+    text-align: center;
+    font-family: Patrick Hand;
+    font-size: 20px;
+    padding: 12px;
+    text-align: left;
+}
+h2 {
+    padding: 7px;
+    font-family: Gloria Hallelujah;
+}
+#enumeracion {
+    padding: 10px;
+}
+h1 {
+    font-family: Gloria Hallelujah;
+    font-size: 77px;
+    background: white;
+    text-align: center;
+}

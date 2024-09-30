@@ -1,0 +1,68 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    display: block;
+  }
+  
+  body {
+    line-height: 1;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  blockquote::before, blockquote::after,
+  q::before, q::after {
+    content: '';
+    content: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /* Asegurar que los formularios y los inputs se vean consistentes */
+  button, input, select, textarea {
+    font: inherit; /* Usar la fuente heredada */
+  }
+  
+  button {
+    border: none; /* Quitar el borde por defecto en los botones */
+    background: none; /* Quitar el fondo por defecto en los botones */
+  }
+  
+  img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantener la proporción de las imágenes */
+  }
+  
+  a {
+    text-decoration: none; /* Quitar subrayado por defecto en enlaces */
+    color: inherit; /* Heredar el color de texto */
+  }
+  
+  /* Eliminar las sombras y bordes adicionales en iOS */
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration,
+  input[type="search"]::-webkit-search-results-button,
+  input[type="search"]::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  /* Quitar la decoración de subrayado en texto con enlaces */
+  a:focus, a:hover {
+    text-decoration: none;
+  }
